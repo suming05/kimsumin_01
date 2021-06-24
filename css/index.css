@@ -1,0 +1,49 @@
+@charset 'utf-8';
+@import url(common.css);
+
+/*control*/
+
+.prev{
+        padding:20px 10%;
+        position:absolute;
+        top:40%; left:-40px;
+        z-index: 1;
+    }
+
+.next{
+        padding:20px 10%;
+        position:absolute;
+        top:40%; right:-40px;
+        z-index: 1;
+    }
+
+
+
+/*main_text*/
+
+.mt_01{
+    top:30%; left:25%;
+    position:absolute;
+}
+
+.mt_02{
+    width:100%;
+    height: 100%;
+    top: 45%; 
+    text-align: center;
+    position:absolute;
+    color: #fff;
+}
+
+.mt_02 h2{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px #737373;
+}
+
+.mt_02 p{
+    font-size: 1.1rem;
+    font-family: 'Noto Sans KR', sans-serif; 
+    text-shadow: 1px 1px 1px #737373;
+}
+
