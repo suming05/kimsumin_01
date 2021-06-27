@@ -1,0 +1,30 @@
+@charset 'utf-8';
+@import url(common.css);
+
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/*room*/
+
+.room_text{margin-top:130px; text-align: center; color:#322c27;}
+.room_text p:nth-child(1){font-weight: 500; font-size: 0.9rem;}
+.room_text p:nth-child(2){font-weight:600; font-size:1.5rem;}
+.room_text p:nth-child(3){padding-top: 10px;}
+
+.loveyou_text{margin-top:40px; text-align: center; font-weight:500;}
+.loveu{color:#f16b6f;}
+.dong1{color:#322c27;}
+.loveyou {padding:30px 415px; display:flex; justify-content: space-between;}
+
+.onlyyou_text{margin-top:30px; text-align: center; font-weight:500;}
+.onlyu{color:#aacd6e;}
+.dong2{color:#322c27;}
+.onlyyou {padding:30px 415px; display:flex; justify-content: space-between;}
+
+.room_01{margin-top:30px; text-align:center;}
+.room_02{margin-top:50px; text-align:center;}
+.room_03{margin-top:60px; text-align:center;}
+
