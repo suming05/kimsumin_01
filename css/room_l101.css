@@ -1,0 +1,55 @@
+@charset 'utf-8';
+@import url(common.css);
+
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/*room*/
+
+.l101_text{margin-top:130px; text-align: center; color:#322c27;}
+.l101_text p:nth-child(1){font-weight: 500; font-size: 0.9rem;}
+.l101_text p:nth-child(2){font-weight:600; font-size:1.5rem;}
+.l101_text p:nth-child(3){padding-top: 10px;}
+
+.l101_01{margin-top:40px; text-align:center;}
+
+.prev{
+    position:absolute;
+    top:45%; left:550px;
+    z-index: 1;
+}
+
+.next{
+    position:absolute;
+    top:45%; right:550px;
+    z-index: 1;
+}
+
+.l101_text2{margin-top:30px; text-align: center; color:#322c27;}
+.l101_text2 p:nth-child(1){font-weight: 600;}
+.l101_text2 p:nth-child(3){margin-top:20px;}
+.l101_text2 p:nth-child(4){margin-top:20px; font-weight: 600;}
+.l101_text2 p:nth-child(5){margin-top:20px; font-weight: 600;}
+.l101_text2 p:nth-child(8){margin-top:20px; font-weight: 600;}
+.l101_text2 p:nth-child(10){margin-top:20px; font-weight: 600;}
+.l101_text2 p:nth-child(11){font-weight: 600; color:#c02712;}
+
+.l101_02{margin-top:40px; text-align:center;}
+
+.loveyou_text{margin-top:40px; text-align: center; font-weight:500;}
+.loveu{color:#f16b6f;}
+.dong1{color:#322c27;}
+.loveyou {padding:30px 415px; display:flex; justify-content: space-between;}
+.loveyou img:hover{opacity: 0.6;}
+
+.onlyyou_text{margin-top:10px; text-align: center; font-weight:500;}
+.onlyu{color:#aacd6e;}
+.dong2{color:#322c27;}
+.onlyyou {padding:30px 415px; display:flex; justify-content: space-between;}
+.onlyyou img:hover{opacity: 0.6;}
+
+.l101_03{margin-top:40px; text-align:center;}
+
