@@ -20,6 +20,10 @@
 
     <link rel="shortcut icon" href="img/16.ico">
     <link rel="apple-touch-icon-precomposed" sizes="114*114" rel="icon114.png">
+
+    <link rel="stylesheet" type="text/css" href="js/slick.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/slick.min.js"></script>
 </head>
 <body>
 
@@ -52,11 +56,34 @@
                 </div>
                 <img src="img/img_01.jpg" alt="메인1">
             </li>
+            <li>
+                <!--main_text-->
+                
+                <div class="mt_02">
+                    <h2>Enjoy your life</h2>
+                    <p>다온은 좋은 기운, 다 오라는 순우리말이랍니다.</p>
+                    <p>다온 펜션, 여기 오신 분들 모두 좋은 기운 다 받아 가세요.</p>
+                </div>
+                <img src="img/img_01.jpg" alt="메인1">
+            </li>
             <!-- !!!!!!!!!!!
             <li><img src="img/img_02.jpg" alt="메인2"></li>
             -->
         </ul>
     </div>
+
+    <script type="text/javascript">
+
+        $(".main ul").slick({
+          arrows:true,
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay:true,
+          autoplayspeed:2000
+        });
+  </script>
 
     <!--control-->
     <div class="control">
