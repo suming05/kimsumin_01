@@ -123,21 +123,31 @@
 
 /* 좌우버튼 */
 .slick-arrow{
-    position:absolute; top:50%;
-    transform: translateY(-50%);
+    position:absolute; 
     z-index:2;
-    font-size:0; border:0; background:none;
+    font-size:0; border:0; 
 }
-.slick-prev{left:0; }
+.slick-prev{
+    top:40%; left:125px;
+    background:url('../img/img_03.png') ;
+    background-size:cover;
+    
+}
 .slick-prev::after{
     content:'<';
+    opacity: 0;
     display:block;
     font-size:5rem;
     /* background:'' */
 }
-.slick-next{right:0;}
+.slick-next{
+    top:40%; right:125px;
+    background:url('../img/img_04.png') ;
+    background-size:cover;
+}
 .slick-next::after{
     content:'>';
+    opacity: 0;
     display:block;
     font-size:5rem;
     /* background:'' */
