@@ -131,6 +131,7 @@
     top:40%; left:125px;
     background:url('../img/img_03.png') ;
     background-size:cover;
+    opacity: 0;
     
 }
 .slick-prev::after{
@@ -144,6 +145,7 @@
     top:40%; right:125px;
     background:url('../img/img_04.png') ;
     background-size:cover;
+    opacity: 0;
 }
 .slick-next::after{
     content:'>';
@@ -171,10 +173,10 @@
     font-size:0;
     padding:0; border:0;
     margin:0 10px;
-    background-color: #000;
+    background-color: #322c27;;
 }   /* 원모양 */
 .slick-dots li.slick-active button{
-    background-color: #f00;
+    background-color: #aacd6e;
 }
 
 
