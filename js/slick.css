@@ -150,3 +150,6 @@
     background-color: #aacd6e;
 }
 
+@media (max-width : 1290px){.slick-list img{width:330%;}}
+@media( max-width: 991px ){.slick-list img{width:330%;}}
+@media( max-width: 767px ){.slick-list img{width:330%;}}

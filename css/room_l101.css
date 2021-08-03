@@ -14,17 +14,10 @@ html,body{
 .l101_text p:nth-child(2){font-weight:600; font-size:1.5rem;}
 .l101_text p:nth-child(3){padding-top: 10px;}
 
-.l101_01{
-    width: 800px;
-    left:50%;
-    top: 48%; 
-    transform:translate(-50%,-50%);
-    text-align: center;
-    position:absolute;
-    }
+.l101_01{max-width:100%;margin-top:30px; text-align:center;}
 
 
-.l101_text2{margin-top:480px; text-align: center; color:#322c27;}
+.l101_text2{margin-top:25px; text-align: center; color:#322c27;}
 .l101_text2 p:nth-child(1){font-weight: 600;}
 .l101_text2 p:nth-child(3){margin-top:20px;}
 .l101_text2 p:nth-child(4){margin-top:20px; font-weight: 600;}
@@ -38,14 +31,118 @@ html,body{
 .loveyou_text{margin-top:40px; text-align: center; font-weight:500;}
 .loveu{color:#f16b6f;}
 .dong1{color:#322c27;}
-.loveyou {padding:30px 415px; display:flex; justify-content: space-between;}
+.loveyou{
+    width: 62%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.loveyou_r{padding: 15px;}
 .loveyou img:hover{opacity: 0.6;}
 
 .onlyyou_text{margin-top:10px; text-align: center; font-weight:500;}
 .onlyu{color:#aacd6e;}
 .dong2{color:#322c27;}
-.onlyyou {padding:30px 415px; display:flex; justify-content: space-between;}
+.onlyyou {
+    width: 62%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.onlyyou_r{padding: 15px;}
 .onlyyou img:hover{opacity: 0.6;}
 
 .l101_03{margin-top:40px; text-align:center;}
 
+
+@media( max-width: 991px ){
+    .l101_01 img{
+        max-width:100%;
+        padding:5%;
+        margin-top:-30px;
+        text-align:center;
+    }
+    .l101_text2{margin-top:-5px; text-align: center; color:#322c27;}
+    .l101_text2 p:nth-child(1){font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(2){font-size:0.9rem;}
+    .l101_text2 p:nth-child(3){margin-top:20px;font-size:0.9rem;}
+    .l101_text2 p:nth-child(4){margin-top:20px; font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(5){margin-top:20px; font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(6){font-size:0.9rem;}
+    .l101_text2 p:nth-child(7){font-size:0.9rem;}
+    .l101_text2 p:nth-child(8){margin-top:20px; font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(9){padding:5%;font-size:0.9rem;}
+    .l101_text2 p:nth-child(10){margin-top:10px; font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(11){font-weight: 600; color:#c02712;font-size:0.9rem;}
+
+    .loveyou_text{margin-top:25px; text-align: center; font-weight:500;}
+    .loveu{color:#f16b6f;font-size:0.9rem;}
+    .dong1{color:#322c27;font-size:0.9rem;}
+
+    .loveyou_r{margin-top: -20px; margin-bottom: 10px;}
+
+    .onlyyou_text{margin-top:20px; text-align: center; font-weight:500;}
+    .onlyu{color:#aacd6e;font-size:0.9rem;}
+    .dong2{color:#322c27;font-size:0.9rem;}
+    .onlyyou {
+        width: 62%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+    .onlyyou_r{margin-top: -20px; margin-bottom: 10px;}
+}
+
+
+
+
+@media( max-width: 767px ){
+    .l101_text{margin-top:130px; text-align: center; color:#322c27;}
+    .l101_text p:nth-child(1){font-weight: 500; font-size: 0.8rem;}
+    .l101_text p:nth-child(2){font-weight:600; font-size:1.4rem;}
+    .l101_text p:nth-child(3){margin-top: -5px; font-size:0.7rem;}
+
+    .l101_01 img{
+        max-width:100%;
+        padding:5%;
+        margin-top:-30px;
+        text-align:center;
+    }
+    .l101_text2{margin-top:-5px; text-align: center; color:#322c27;}
+    .l101_text2 p:nth-child(1){font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(2){font-size:0.9rem;}
+    .l101_text2 p:nth-child(3){margin-top:20px;font-size:0.9rem;}
+    .l101_text2 p:nth-child(4){margin-top:20px; font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(5){margin-top:20px; font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(6){font-size:0.9rem;}
+    .l101_text2 p:nth-child(7){font-size:0.9rem;}
+    .l101_text2 p:nth-child(8){margin-top:20px; font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(9){padding:5%;font-size:0.9rem;}
+    .l101_text2 p:nth-child(10){margin-top:10px; font-weight: 600;font-size:0.9rem;}
+    .l101_text2 p:nth-child(11){font-weight: 600; color:#c02712;font-size:0.9rem;}
+
+    .loveyou_text{margin-top:25px; text-align: center; font-weight:500;}
+    .loveu{color:#f16b6f;font-size:0.9rem;}
+    .dong1{color:#322c27;font-size:0.9rem;}
+
+    .loveyou_r{margin-top: -20px; margin-bottom: 10px;}
+
+    .onlyyou_text{margin-top:20px; text-align: center; font-weight:500;}
+    .onlyu{color:#aacd6e;font-size:0.9rem;}
+    .dong2{color:#322c27;font-size:0.9rem;}
+    .onlyyou {
+        width: 62%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+    .onlyyou_r{margin-top: -20px; margin-bottom: 10px;}
+}
