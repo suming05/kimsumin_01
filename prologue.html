@@ -17,7 +17,8 @@
     <meta name="twitter:url" content="https://suming05.github.io/kimsumin_01/">
     <meta name="twitter:image" content="img/800.png">
     <meta name="twitter:description" content="아름다운 추억을 선물해드립니다.">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="shortcut icon" href="img/16.ico">
     <link rel="apple-touch-icon-precomposed" sizes="114*114" rel="icon114.png">
 </head>
@@ -46,7 +47,8 @@
         <p>가슴 두근두근 설레게 하는 곳 다온펜션에 오신 것을 환영합니다.</p>        
     </div>
 
-    <div class="prol_01">
+    <div class="prol_01" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
         <img src="img/img_08.png" alt="">
     </div>
 
@@ -54,7 +56,8 @@
         <img src="img/img_09.png" alt="">
     </div>
   
-    <div class="prol_03">
+    <div class="prol_03" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
         <img src="img/img_10.png" alt="">
         <p>안녕하세요 다온펜션지기에요^^<br><br>
             천혜의 자연경관을 갖춘 경기도 가평!<br>
@@ -82,7 +85,7 @@
         <p>가슴 두근두근 설레게 하는 곳 다온펜션에 오신 것을 환영합니다.</p>        
     </div>
 
-    <div class="kakaomap">
+    <div class="kakaomap" data-aos="fade-right">
     <div id="daumRoughmapContainer1624813689487" class="root_daum_roughmap root_daum_roughmap_landing"></div>
     <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
     <script charset="UTF-8">
@@ -127,5 +130,12 @@
             </p>
         </div>
     </footer>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+     
+    </script>  
 </body>
 </html>
