@@ -88,6 +88,7 @@ a{text-decoration: none;}
     height: 40px;
     bottom:0;
     right: 9%;
+    z-index: 5;
 }
 .popup{
     position: fixed;
@@ -160,4 +161,5 @@ footer div p i{color:#fff; font-size: 0.8rem;}
     font-size: 0.9rem;
     font-family: 'Noto Sans KR', sans-serif; 
     text-shadow: 2px 2px 2px #424242;
-}}
+}
+}
